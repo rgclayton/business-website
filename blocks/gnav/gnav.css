@@ -562,6 +562,11 @@ button.gnav-toggle:after {
     position: absolute;
     top: 100%;
   }
+
+  .gnav .section-nav {
+    border-left: 1px solid #EBEBEB;
+    border-right: 1px solid #EBEBEB;
+  }
 }
 
 @media (min-width: 1440px) {
