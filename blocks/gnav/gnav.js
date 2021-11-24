@@ -172,7 +172,6 @@ class Gnav {
   }
 
   decorateIconLink = (sectionMenu) => {
-    console.log('sectionMenu= ', sectionMenu);
     const iconLink = sectionMenu.querySelector('.icon-link');
     if (iconLink) {
       const url =  iconLink.querySelector(':scope > div:first-of-type div').textContent;
